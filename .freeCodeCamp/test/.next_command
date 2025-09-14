@@ -65,3 +65,4 @@ cat ange < name.txt
 cat < name.txt
 echo ange
 touch script.sh
+chmod +x script.sh
