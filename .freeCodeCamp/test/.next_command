@@ -54,3 +54,4 @@ echo $NAME > stdout.txt
 rm stdout.tx
 echo freeCodeCamp > name.txt
 read NAME < name.txt
+echo $NAME
