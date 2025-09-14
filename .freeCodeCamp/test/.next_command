@@ -166,3 +166,6 @@ __vsc_prompt_cmd_original
 grep --color 'cat[a-z]*' kitty_ipsum_1.txt
 __vsc_prompt_cmd_original
 echo -e "\nNumber of times cat, cats, or catnip appears:" >> kitty_info.txt
+grep -n 'cat[a-z]*' kitty_ipsum_1.txt
+grep -n --color 'cat[a-z]*' kitty_ipsum_1.txt
+grep -o 'cat[a-z]*' kitty_ipsum_1.txt
