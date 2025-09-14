@@ -74,3 +74,4 @@ echo ange
 name.txt < ./script.sh
 cat name.txt < ./script.sh
 ./script.sh < name.txt
+./script.sh < name.txt 2> stderr.txt
