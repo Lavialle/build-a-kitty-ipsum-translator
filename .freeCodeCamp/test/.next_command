@@ -71,3 +71,6 @@ echo ange
 echo ange
 echo ange
 echo ange
+name.txt < ./script.sh
+cat name.txt < ./script.sh
+./script.sh < name.txt
